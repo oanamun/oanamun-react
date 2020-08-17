@@ -1,0 +1,41 @@
+.oana2 {
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  padding: 20px;
+  overflow: auto;
+  position: relative;
+  max-width: 1000px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  width: 206px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.link {
+  display: contents;
+}
+.link1 {
+  display: contents;
+}
+.link2 {
+  display: contents;
+}
+.link3 {
+  display: contents;
+}
+.link4 {
+  display: contents;
+}
+.container6 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.text1 {
+  color: #FFBF5A;
+}

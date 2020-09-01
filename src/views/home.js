@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 import styles from "./home.module.css";
 import projectStyles from "../style.module.css";
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Helmet>
@@ -19,12 +19,14 @@ const Home = (props) => {
           content="https://storage.googleapis.com/playground-bucket.teleporthq.io/7e16ba118516a80f6a1c5025c3a89fc9"
         />
       </Helmet>
-      <Header></Header>
+
+      <Header />
+
       <div className={styles.container1}>
         <div className={styles.container2}>
           <h1 className={projectStyles.thqHeading1}>Hi!</h1>
-          <h1 className={` ${projectStyles.thqHeading1} ${styles.text1} `}>
-            I&apos;m Oana, a Front-end developer based in Cluj-Napoca, Romania.
+          <h1 className={`${projectStyles.thqHeading1} ${styles.text1}`}>
+            I'm Oana, a Front-end developer based in Cluj-Napoca, Romania.
           </h1>
           <span>
             I create responsive web applications, with performance,
@@ -39,7 +41,8 @@ const Home = (props) => {
           className={` ${projectStyles.thqImage} ${styles.image} `}
         />
       </div>
-      <Footer></Footer>
+
+      <Footer />
     </div>
   );
 };

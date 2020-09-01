@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import styles from './footer.module.css'
-import projectStyles from '../style.module.css'
+import styles from "./footer.module.css";
+import projectStyles from "../style.module.css";
 
 const Footer = (props) => {
   return (
@@ -32,7 +32,12 @@ const Footer = (props) => {
           className={styles.link1}
         >
           <div className={projectStyles.thqLink}>
-            <svg width="24" height="24" viewBox="0 0 1024 1024" className={projectStyles.thqIcon}>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 1024 1024"
+              className={projectStyles.thqIcon}
+            >
               <path d="M991.488 648.491c11.136-7.253 20.992-19.029 27.093-32.597 7.339-16.427 9.131-35.456 3.2-55.68l-54.016-159.957-103.765-319.317c-2.901-9.771-8.32-18.901-16.939-27.179-11.349-10.325-25.728-15.659-40.149-15.872-14.976-0.256-30.165 5.077-41.643 15.573-7.040 6.272-12.629 14.251-16.128 23.339-0.256 0.64-0.512 1.408-0.768 2.219l-94.592 290.901h-283.605l-94.165-288.981c-2.901-9.771-8.32-18.901-16.939-27.179-11.307-10.325-25.685-15.659-40.107-15.872-14.976-0.256-30.165 5.035-41.643 15.573-7.083 6.229-12.629 14.251-16.171 23.296-0.256 0.683-0.512 1.451-0.768 2.219l-104.149 320.512-52.053 161.28c-4.523 14.037-4.992 28.843-1.621 42.837 4.181 17.365 14.336 33.408 29.952 44.885l454.4 330.24c14.763 10.581 34.901 11.093 50.176 0zM938.795 581.291l-426.795 310.187-425.131-308.992 131.072-404.48 80.683 247.808c5.845 17.92 22.4 29.312 40.576 29.44h345.6c18.859 0 34.859-12.245 40.576-29.483l80.469-247.637 80.725 248.491z"></path>
             </svg>
           </div>
@@ -80,7 +85,12 @@ const Footer = (props) => {
           className={styles.link4}
         >
           <div className={projectStyles.thqLink}>
-            <svg width="24" height="24" viewBox="0 0 1024 1024" className={projectStyles.thqIcon}>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 1024 1024"
+              className={projectStyles.thqIcon}
+            >
               <path d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"></path>
             </svg>
           </div>
@@ -88,11 +98,20 @@ const Footer = (props) => {
       </div>
       <div className={styles.container6}>
         <span>Made with</span>
-        <span className={styles.text1}>Â â¥Â </span>
+        <span className={styles.text1}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            viewBox="0 0 24 24"
+            fill="#FFBF5A"
+          >
+            <path d="M12 4.419c-2.826-5.695-11.999-4.064-11.999 3.27 0 7.27 9.903 10.938 11.999 15.311 2.096-4.373 12-8.041 12-15.311 0-7.327-9.17-8.972-12-3.27z" />
+          </svg>
+        </span>
         <span>by &lt;oanamun&gt;</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

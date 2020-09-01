@@ -37,5 +37,6 @@
   flex-direction: row;
 }
 .text1 {
-  color: #FFBF5A;
+  padding: 0 5px;
+  line-height: 1;
 }

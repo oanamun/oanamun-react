@@ -1,9 +1,9 @@
 import React from "react";
 
 import styles from "./footer.module.css";
-import projectStyles from "../style.module.css";
+import projectStyles from "../../style.module.css";
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className={styles.oana2}>
       <div className={styles.container}>
@@ -29,7 +29,7 @@ const Footer = (props) => {
           href="https://gitlab.com/oanamun"
           target="_blank"
           rel="noreferrer noopener"
-          className={styles.link1}
+          className={styles.link}
         >
           <div className={projectStyles.thqLink}>
             <svg
@@ -43,10 +43,10 @@ const Footer = (props) => {
           </div>
         </a>
         <a
-          href="https://www.linkedin.com/in/oanamun/"
+          href="https://www.linkdin.com/in/oanamun/"
           target="_blank"
           rel="noreferrer noopener"
-          className={styles.link2}
+          className={styles.link}
         >
           <div className={projectStyles.thqLink}>
             <svg
@@ -61,10 +61,10 @@ const Footer = (props) => {
           </div>
         </a>
         <a
-          href="https://www.instagram.com/oanamun_art/"
+          href="https://www.instagram.com/oanamun_draws/"
           target="_blank"
           rel="noreferrer noopener"
-          className={styles.link3}
+          className={styles.link}
         >
           <div className={projectStyles.thqLink}>
             <svg
@@ -82,7 +82,7 @@ const Footer = (props) => {
           href="https://www.twitter.com/oanamun"
           target="_blank"
           rel="noreferrer noopener"
-          className={styles.link4}
+          className={styles.link}
         >
           <div className={projectStyles.thqLink}>
             <svg

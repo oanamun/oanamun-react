@@ -1,29 +1,17 @@
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from "react";
 
-import Header from '../components/header'
-import Footer from '../components/footer'
-import styles from './projects.module.css'
-import projectStyles from '../style.module.css'
+import styles from "./projects.module.css";
+import projectStyles from "../../style.module.css";
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <div className={styles.container}>
-      <Helmet>
-        <title>Projects - Oana Muntean</title>
-        <meta name="description" content="Hi I'm Oana and I code" />
-        <meta property="og:title" content="Projects - Oana Muntean" />
-        <meta property="og:description" content="Hi I'm Oana and I code" />
-        <meta
-          property="og:image"
-          content="https://storage.googleapis.com/playground-bucket.teleporthq.io/7e16ba118516a80f6a1c5025c3a89fc9"
-        />
-      </Helmet>
-      <Header></Header>
-      <h1 className={` ${projectStyles.thqHeading1} ${styles.text} `}>Personal Projects</h1>
+      <h1 className={` ${projectStyles.thqHeading1} ${styles.text} `}>
+        Personal Projects
+      </h1>
       <img
         alt="responsive design"
-        src="/playground_assets/undraw_file_sync_ot38-1000w.svg"
+        src="/assets/file_sync.svg"
         className={` ${projectStyles.thqImage} ${styles.image} `}
       />
       <div className={styles.container01}>
@@ -48,7 +36,9 @@ const Projects = (props) => {
                 rel="noreferrer noopener"
                 className={styles.link1}
               >
-                <div className={` ${projectStyles.thqLink} ${styles.container05} `}>
+                <div
+                  className={` ${projectStyles.thqLink} ${styles.container05} `}
+                >
                   <svg
                     width="24"
                     height="24"
@@ -61,42 +51,48 @@ const Projects = (props) => {
               </a>
             </div>
             <span>
-              A website destined for connecting people with ideas or with a certain set of skills.Â 
+              A website destined for connecting people with ideas or with a
+              certain set of skills.
             </span>
             <p className={styles.text03}>
-              Creative people can describe their ideas and ask for people&apos;s help implementing
-              them.
+              Creative people can describe their ideas and ask for people&apos;s
+              help implementing them.
             </p>
             <span>
-              Technical people can find projects they empathize with and join a team in order to
-              start building a new product.
+              Technical people can find projects they empathize with and join a
+              team in order to start building a new product.
             </span>
             <span className={styles.text05}>
-              I worked on the frontend of the application which is built in Angular 2.
+              I worked on the frontend of the application which is built in
+              Angular 2.
             </span>
           </div>
           <img
             alt="after five app homepage"
-            src="/playground_assets/after5-nnon-1200h.png"
+            src="/assets/after5.png"
             className={` ${projectStyles.thqImage} ${styles.image1} `}
           />
         </div>
         <div className={styles.container06}>
           <div className={styles.container07}>
             <div className={styles.container08}>
-              <h1 className={` ${projectStyles.thqHeading1} ${styles.text06} `}>TVfan</h1>
+              <h1 className={` ${projectStyles.thqHeading1} ${styles.text06} `}>
+                TVfan
+              </h1>
               <a
                 href="https://gitlab.com/oanamunteantean/shows-frontend"
                 target="_blank"
                 rel="noreferrer noopener"
                 className={styles.link2}
               >
-                <div className={` ${projectStyles.thqLink} ${styles.container09} `}>
+                <div
+                  className={` ${projectStyles.thqLink} ${styles.container09} `}
+                >
                   <svg
                     width="24"
                     height="24"
                     viewBox="0 0 1024 1024"
-                    className={` ${projectStyles.thqIcon} ${styles.icon1} `}
+                    className={` ${projectStyles.thqIcon} ${styles.icon} `}
                   >
                     <path d="M59.429 403.429l452.571 580-496-360c-13.714-10.286-19.429-28-14.286-44l57.714-176zM323.429 403.429h377.143l-188.571 580zM210.286 53.714l113.143 349.714h-264l113.143-349.714c6.286-17.714 31.429-17.714 37.714 0zM964.571 403.429l57.714 176c5.143 16-0.571 33.714-14.286 44l-496 360 452.571-580zM964.571 403.429h-264l113.143-349.714c6.286-17.714 31.429-17.714 37.714 0z"></path>
                   </svg>
@@ -104,39 +100,45 @@ const Projects = (props) => {
               </a>
             </div>
             <span>
-              A website for managing your watched tv shows where people can log in and add shows to
-              their watchlist, can view information about any show and can see the activity of their
-              friends on the website.
+              A website for managing your watched tv shows where people can log
+              in and add shows to their watchlist, can view information about
+              any show and can see the activity of their friends on the website.
             </span>
             <p className={styles.text08}>
-              The application was a REST service with an Angular 2 client on the frontend.
+              The application was a REST service with an Angular 2 client on the
+              frontend.
             </p>
             <p className={styles.text09}>
-              I worked with Javascript, SASS, Angular, Semantic UI, Node, Adonis framework, MySql.
+              I worked with Javascript, SASS, Angular, Semantic UI, Node, Adonis
+              framework, MySql.
             </p>
           </div>
           <img
             alt="tv fan homepage"
-            src="/playground_assets/1CbAbo93UfOekR_1CG5ixQeW5FImjrJiBccEhIUvS1bz8dDu0-1000w.png"
+            src="/assets/shows.png"
             className={` ${projectStyles.thqImage} ${styles.image2} `}
           />
         </div>
         <div className={styles.container10}>
           <div className={styles.container11}>
             <div className={styles.container12}>
-              <h1 className={` ${projectStyles.thqHeading1} ${styles.text10} `}>UBB E-Learning</h1>
+              <h1 className={` ${projectStyles.thqHeading1} ${styles.text10} `}>
+                UBB E-Learning
+              </h1>
               <a
                 href="https://gitlab.com/oanamunteantean/elearning-frontend"
                 target="_blank"
                 rel="noreferrer noopener"
                 className={styles.link3}
               >
-                <div className={` ${projectStyles.thqLink} ${styles.container13} `}>
+                <div
+                  className={` ${projectStyles.thqLink} ${styles.container13} `}
+                >
                   <svg
                     width="24"
                     height="24"
                     viewBox="0 0 1024 1024"
-                    className={` ${projectStyles.thqIcon} ${styles.icon2} `}
+                    className={` ${projectStyles.thqIcon} ${styles.icon} `}
                   >
                     <path d="M59.429 403.429l452.571 580-496-360c-13.714-10.286-19.429-28-14.286-44l57.714-176zM323.429 403.429h377.143l-188.571 580zM210.286 53.714l113.143 349.714h-264l113.143-349.714c6.286-17.714 31.429-17.714 37.714 0zM964.571 403.429l57.714 176c5.143 16-0.571 33.714-14.286 44l-496 360 452.571-580zM964.571 403.429h-264l113.143-349.714c6.286-17.714 31.429-17.714 37.714 0z"></path>
                   </svg>
@@ -144,24 +146,24 @@ const Projects = (props) => {
               </a>
             </div>
             <span>
-              A platform where students and professors could log in and join/create courses, tests,
-              homework, events, check and calculate their grades.Â 
+              A platform where students and professors could log in and
+              join/create courses, tests, homework, events, check and calculate
+              their grades.
             </span>
             <p className={styles.text12}>
-              I made on the front-end of the application usingÂ  JavaScript, Angular, Bootstrap, SASS
-              and Gulp.
+              I made on the front-end of the application using JavaScript,
+              Angular, Bootstrap, SASS and Gulp.
             </p>
           </div>
           <img
             alt="e-learning web app page"
-            src="/playground_assets/12458545_1194247197271014_553283969_o-1000w.jpg"
+            src="/assets/elearning.jpg"
             className={` ${projectStyles.thqImage} ${styles.image3} `}
           />
         </div>
       </div>
-      <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

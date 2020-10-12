@@ -1,0 +1,18 @@
+.container01 {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  flex-wrap: nowrap;
+  max-width: 1000px;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 479px) {
+  .container01 {
+    padding: 10px;
+    flex-direction: column;
+  }
+}

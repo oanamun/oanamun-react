@@ -12,7 +12,6 @@
 }
 .text {
   padding-left: 5px;
-  text-decoration: none;
   border-left-width: 2px;
 }
 .container {
@@ -22,13 +21,13 @@
   flex-direction: row;
   justify-content: space-between;
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .text {
     padding-left: 5px;
     padding-right: 5px;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .text {
     padding-left: 5px;
     padding-right: 5px;

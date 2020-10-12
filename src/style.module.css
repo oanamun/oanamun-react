@@ -1,11 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  position: static;
+  min-height: 100vh;
+  align-items: center;
+  font-family: Josefin Sans;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .thqLink {
   color: #2b2b2b;
   text-decoration: underline;
-  text-decoration-color: #FFBF5A;
+  text-decoration-color: #ffbf5a;
+  transition: 0.4s ease-in-out;
 }
+
+.thqLink:hover {
+  text-decoration-color: #000;
+}
+
 .thqButton {
   color: #2b2b2b;
-  border: 1px solid #FFBF5A;
+  border: 1px solid #ffbf5a;
   padding: 5px 10px;
   border-radius: 4px;
   background-color: #fff;

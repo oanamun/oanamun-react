@@ -23,8 +23,8 @@ const ExperienceSection: React.FC<Props> = (props) => {
         </h1>
       </div>
 
-      {props.paragraphs.map((paragraph) => (
-        <div className={styles.container04}>
+      {props.paragraphs.map((paragraph, i) => (
+        <div key={i} className={styles.container04}>
           <h2 className={` ${projectStyles.thqHeading2} ${styles.text01} `}>
             {paragraph.heading}
           </h2>

@@ -10,6 +10,10 @@
   justify-content: flex-start;
 }
 
+span{
+  color: #485462;
+}
+
 .thqLink {
   position: relative;
 }
@@ -18,7 +22,7 @@
   content: "";
   display: block;
   left: 0;
-  bottom: 5px;
+  bottom: 0;
   width: 0;
   position: absolute;
   height: 5px;

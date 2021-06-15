@@ -54,10 +54,10 @@ const Projects = () => {
               A website destined for connecting people with ideas or with a
               certain set of skills.
             </span>
-            <p className={styles.text03}>
+            <span className={styles.text03}>
               Creative people can describe their ideas and ask for people&apos;s
               help implementing them.
-            </p>
+            </span>
             <span>
               Technical people can find projects they empathize with and join a
               team in order to start building a new product.
@@ -104,14 +104,14 @@ const Projects = () => {
               in and add shows to their watchlist, can view information about
               any show and can see the activity of their friends on the website.
             </span>
-            <p className={styles.text08}>
+            <span className={styles.text08}>
               The application was a REST service with an Angular 2 client on the
               frontend.
-            </p>
-            <p className={styles.text09}>
+            </span>
+            <span className={styles.text09}>
               I worked with Javascript, SASS, Angular, Semantic UI, Node, Adonis
               framework, MySql.
-            </p>
+            </span>
           </div>
           <img
             alt="tv fan homepage"
@@ -150,10 +150,10 @@ const Projects = () => {
               join/create courses, tests, homework, events, check and calculate
               their grades.
             </span>
-            <p className={styles.text12}>
+            <span className={styles.text12}>
               I made on the front-end of the application using JavaScript,
               Angular, Bootstrap, SASS and Gulp.
-            </p>
+            </span>
           </div>
           <img
             alt="e-learning web app page"

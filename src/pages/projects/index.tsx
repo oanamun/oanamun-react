@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
       <img
         alt="responsive design"
-        src="/assets/file_sync.svg"
+        src="/assets/code.png"
         className={` ${projectStyles.thqImage} ${styles.image} `}
       />
       <div className={styles.container01}>

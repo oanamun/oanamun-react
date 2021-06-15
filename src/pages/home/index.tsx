@@ -18,7 +18,7 @@ const Home = () => {
         </span>
       </div>
       <img
-        src="/assets/oana-plants.svg"
+        src="/assets/coding.png"
         alt="girl on laptop"
         className={` ${projectStyles.thqImage} ${styles.image} `}
       />

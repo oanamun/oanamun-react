@@ -10,20 +10,20 @@ const About = () => {
         About me
       </h1>
       <img
-        alt="woman with info tag"
-        src="/assets/personal_information.svg"
+        alt="about me"
+        src="/assets/about.png"
         className={` ${projectStyles.thqImage} ${styles.image} `}
       />
       <div className={styles.container1}>
         <div className={styles.container2}>
           <span>
             I started learning web development while studying Computer Science
-            at BabeÈ-Bolyai University in Cluj-Napoca.
+            at Babes-Bolyai University in Cluj-Napoca.
           </span>
           <span className={styles.text2}>
             I am skilled in JavaScript technologies and frameworks in both
-            Frontend (React, Typescript, Next, Angular 2) and Backend
-            development (Express, Adonis). Frontend is my strong suit and I am
+            front-end (React, Typescript, Next, Angular) and back-end
+            development (Express, Adonis). Front-end is my strong suit and I am
             knowledgeable in HTML, CSS, SASS and UI frameworks like Bootstrap,
             SemanticUI and MaterialUI.
           </span>
@@ -31,8 +31,9 @@ const About = () => {
             I am a travel enthusiast and my dream is to see the world and to
             taste all the flavors it has to offer. Because of this I would enjoy
             to work fully remote one day. Apart from coding, in my free time I
-            enjoy drawing and I believe this helped me form a good eye when it
-            comes to web design, while also making me more creative.
+            enjoy drawing and making digital illustrations. I believe this helps
+            me in my work because I have an eye for detail when it comes to
+            implementing user interfaces.
           </span>
         </div>
       </div>

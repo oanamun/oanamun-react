@@ -1,9 +1,9 @@
 .container01 {
   width: 100%;
   display: flex;
-  padding: 50px;
+  padding: 50px 20px;
   flex-wrap: nowrap;
-  max-width: 1000px;
+  max-width: 1100px;
   min-height: 80vh;
   align-items: center;
   flex-direction: column;

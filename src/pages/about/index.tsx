@@ -3,17 +3,18 @@ import React from "react";
 import styles from "./about.module.css";
 import projectStyles from "../../style.module.css";
 
+import { ReactComponent as AboutSVG } from "./about.svg";
+
 const About = () => {
   return (
     <div className={styles.container}>
       <h1 className={` ${projectStyles.thqHeading1} ${styles.text} `}>
         About me
       </h1>
-      <img
-        alt="about me"
-        src="/assets/about.png"
-        className={` ${projectStyles.thqImage} ${styles.image} `}
-      />
+
+      <div className={styles.illustration}>
+        <AboutSVG />
+      </div>
       <div className={styles.container1}>
         <div className={styles.container2}>
           <span>

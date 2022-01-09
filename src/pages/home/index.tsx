@@ -3,6 +3,8 @@ import React from "react";
 import styles from "./home.module.css";
 import projectStyles from "../../style.module.css";
 
+import { ReactComponent as CodingSVG } from "./coding.svg";
+
 const Home = () => {
   return (
     <div className={styles.container1}>
@@ -17,11 +19,9 @@ const Home = () => {
           shows in my work, enabling me to give special attention to details.
         </span>
       </div>
-      <img
-        src="/assets/coding.png"
-        alt="girl on laptop"
-        className={` ${projectStyles.thqImage} ${styles.image} `}
-      />
+      <div className={styles.illustration}>
+        <CodingSVG />
+      </div>
     </div>
   );
 };

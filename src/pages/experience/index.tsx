@@ -19,15 +19,15 @@ const Experience = () => {
           Apart from programming, my responsibilities include planning
             features in collaboration with the business and UX teams, reviewing
             merge requests and mentoring juniors.
-          `
+          `,
           },
           {
             heading: "Evozon",
             description: `Started by working on various small projects using Angular, React
               and Node.js, then worked on a more complex application for a bank
               using React with Redux for state management.
-          `
-          }
+          `,
+          },
         ]}
       />
 
@@ -38,17 +38,17 @@ const Experience = () => {
           {
             heading: "Code for Romania",
             description: `Worked on various Code4Ro projects for
-            social good as front-end developer.`
+            social good as front-end developer.`,
           },
           {
             heading: "NodeSchool",
             description: `Taught JavaScript fundamentals to workshop
-            participants.`
+            participants.`,
           },
           {
             heading: "JSHeroes",
-            description: `Helped organize the JSHeroes yearly conference.`
-          }
+            description: `Helped organize the JSHeroes yearly conference.`,
+          },
         ]}
       />
       <ExperienceSection
@@ -60,15 +60,15 @@ const Experience = () => {
             description: `Pursuing Master's Degree in Distributed Systems across the
               Internet. Studied distributed systems algorithms, security protocols,
               distributed architecture computing.
-          `
+          `,
           },
           {
             heading: "Babes-Bolyai University",
             description: `Bachelor's Degree in Computer Science.
               Studied Object Oriented Programming, design patterns, data
               structures and algorithms.
-          `
-          }
+          `,
+          },
         ]}
       />
 
@@ -79,18 +79,18 @@ const Experience = () => {
           {
             heading: "Deutsches Sprachdiplom Niveau C1",
             description: `Kultusministerkonferenz, 2013
-          `
+          `,
           },
           {
             heading: "Cambridge Certificate of Proficiency in English",
             description: `Esol Education, 2012
-          `
+          `,
           },
           {
             heading: "LCCI Engligh for Business Level 3",
             description: `Pearson, 2011
-          `
-          }
+          `,
+          },
         ]}
       />
     </div>

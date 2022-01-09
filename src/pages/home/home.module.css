@@ -32,10 +32,26 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
-.image {
-  max-width: 50%;
+
+.illustration {
+  width: 100%;
 }
-@media (max-width: 767px) {
+
+.illustration :global(svg) {
+  width: 100%;
+}
+
+.illustration :global(#background) {
+  animation: float 6s ease-in-out infinite;
+}
+
+.illustration :global(#code-left),
+.illustration :global(#code-right),
+.illustration :global(#girl) {
+  animation: little-float 6s ease-in-out infinite;
+}
+
+@media (max-width: 900px) {
   .container1 {
     flex-direction: column;
   }
@@ -43,11 +59,12 @@
     order: 2;
     max-width: 70%;
   }
-  .image {
+  .illustration {
     order: 1;
-    max-width: 70%;
+    max-width: 500px;
   }
 }
+
 @media (max-width: 479px) {
   .container1 {
     padding: 10px;
@@ -56,7 +73,31 @@
   .text1 {
     font-size: 1em;
   }
-  .image {
-    height: 300px;
+  .illustration {
+    max-width: 70%;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes little-float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }

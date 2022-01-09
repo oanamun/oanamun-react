@@ -18,24 +18,33 @@ const About = () => {
       <div className={styles.container1}>
         <div className={styles.container2}>
           <span>
-            I started learning web development while studying Computer Science
-            at Babes-Bolyai University in Cluj-Napoca.
+            I am a Senior ReactJS Developer with 5+ years of experience working
+            in the IT industry. Skilled in modern web technologies such as
+            Typescript, React, Next.js, and Jest, I create responsive web
+            applications, with performance, accessibility, and scalability in
+            mind. I have a bachelor's degree in Computer Science from
+            Babeș-Bolyai University, and I am pursuing a master's degree in
+            Distributed Systems.
           </span>
-          <span className={styles.text2}>
-            I am skilled in JavaScript technologies and frameworks in both
-            front-end (React, Typescript, Next, Angular) and back-end
-            development (Express, Adonis). Front-end is my strong suit and I am
-            knowledgeable in HTML, CSS, SASS and UI frameworks like Bootstrap,
-            SemanticUI and MaterialUI.
-          </span>
-          <span className={styles.text3}>
-            I am a travel enthusiast and my dream is to see the world and to
-            taste all the flavors it has to offer. Because of this I would enjoy
-            to work fully remote one day. Apart from coding, in my free time I
-            enjoy drawing and making digital illustrations. I believe this helps
-            me in my work because I have an eye for detail when it comes to
-            implementing user interfaces.
-          </span>
+          <br />
+          <p className={styles.text3}>
+            ✅ TypeScript, React
+            <br />
+            ✅ React Router, React Forms, Redux, React Hooks
+            <br />
+            ✅ Next.js
+            <br />
+            ✅ HTML, CSS, SASS
+            <br />
+            ✅ MaterialUI, SemanticUI, Bootstrap
+            <br />
+            ✅ Storybook
+            <br />
+            ✅ Jest unit testing
+            <br />
+            ✅ Agile, Git
+            <br />✅ Adobe Illustrator
+          </p>
         </div>
       </div>
     </div>

@@ -14,7 +14,12 @@
 }
 
 .illustration {
-  max-width: 50%;
+  width: 100%;
+  max-width: 500px;
+}
+
+.illustration :global(svg) {
+  width: 100%;
 }
 
 .container1 {
@@ -97,12 +102,17 @@
   animation-delay: 10s;
 }
 
+@media (max-width: 700px) {
+  .illustration {
+    max-width: 70%;
+  }
+}
+
 @media (max-width: 479px) {
   .text {
     margin: 10px;
   }
   .illustration {
-    height: 300px;
     max-width: 70%;
   }
   .container1 {
